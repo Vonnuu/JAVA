@@ -1,9 +1,8 @@
 public class ruumalad {
-    public static double roopkylk(String a, String h) {
-        float alus = Float.parseFloat(a);
+    public static double roopkylk(String u, String h) {
+        float ppindala = Float.parseFloat(u);
         float korgus = Float.parseFloat(h);
-        flaot pohjapindala = Float.parseFloat();
-        double s = alus * korgus / 2;
+        double s = ppindala * korgus;
         return s;
     }
 
@@ -15,10 +14,9 @@ public class ruumalad {
         return s;
     }
 
-    public static double pyrmid(String a, String h) {
+    public static double kuup(String a) {
         float alus = Float.parseFloat(a);
-        float korgus = Float.parseFloat(h);
-        double s = alus * korgus;
+        double s = alus * alus * alus;
         return s;
     }
 
