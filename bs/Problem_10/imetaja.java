@@ -1,4 +1,4 @@
-package Problem_10;
+package karl10;
 
 public class imetaja extends Loom{
 	// omadus
