@@ -16,6 +16,6 @@ public class Lind extends Loom{
 	}
     @Override
     public void toit(){
-        System.out.println("Lind sööb saaski");
+        System.out.println("Linnud soovad saaski");
     }
 }
