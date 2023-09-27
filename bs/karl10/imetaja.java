@@ -1,23 +1,18 @@
 package karl10;
 
 public class imetaja extends Loom{
-	// omadus
 	private String nimi;
-	// kontstruktor
 	public imetaja(String nimi) {
 		this.nimi = nimi;
 	}
-	// getter
 	public String getNimi() {
 		return nimi;
 	}
-	// setter
 	public void setNimi(String nimi) {
 		this.nimi = nimi;
 	}
-	// meetod
 	public void haugu(){
-		System.out.println("Auh auh");
+		System.out.println("waf waf waf waf waf waf");
 	}
 	@Override
 	public void temp() {
