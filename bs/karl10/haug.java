@@ -1,12 +1,12 @@
 package karl10;
 
-public class haug extends Kala{
-    public haug(String liik) {
+public class sarg extends Kala{
+    public sarg(String liik) {
         super(liik);
       
     }
 
-    public haug() {
+    public sarg() {
         super("default");
         
     }
