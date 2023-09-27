@@ -11,7 +11,7 @@ public class Kala extends Loom{
 	public void setliik(String liik) {
 		this.liik = liik;
 	}
-	public void uju(){
+	public void ujumine(){
 		System.out.println("mul mul mul mul mul......");
 	}
 }
