@@ -5,7 +5,7 @@ public class App {
 	public static void main(String[] args) {
 		
 		//objekt
-		haug haug = new haug();
+		sarg sarg = new sarg();
 		imetaja koer = new imetaja("muki");
 		Roomaja roomaja = new Roomaja(true);
 		Kala kala = new Kala("sarg");
