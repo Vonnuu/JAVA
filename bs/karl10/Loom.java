@@ -1,15 +1,13 @@
 package karl10;
 
 public class Loom {
-	
 	protected String sugu; 
-	
 	public void toit(){
-		System.out.println("Söön kõike");
+		System.out.println("soon koiki");
 	}
 	
 	public void temp(){
-		System.out.println("püsisoojane");
+		System.out.println("pysisoojane");
 	}
 	
 	public String getSugu() {
