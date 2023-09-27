@@ -4,14 +4,13 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		//objekt
 		sarg sarg = new sarg();
 		imetaja koer = new imetaja("muki");
 		Roomaja roomaja = new Roomaja(true);
 		Kala kala = new Kala("sarg");
 		Lind lind = new Lind(5);
 		
-		System.out.println(haug.uju(5));
+		System.out.println(sarg.uju(5));
 
 		koer.setSugu("M");
 		System.out.println("imetaja Sugu: "+koer.sugu);
@@ -22,7 +21,7 @@ public class App {
 		System.out.println("Nimi: "+koer.getNimi());
 		koer.haugu();	
 		
-		System.out.println("//////////////////////////////////////////");
+		System.out.println("||||||||||||||||||||||||||||||||||||||||||||");
 		
 		roomaja.setSugu("M");
 		System.out.println("roomaja Sugu: "+roomaja.sugu);
@@ -33,7 +32,7 @@ public class App {
 		System.out.println("Elav: "+roomaja.getelav());
 		roomaja.mismaolen();
 		
-		System.out.println("//////////////////////////////////////////");
+		System.out.println("||||||||||||||||||||||||||||||||||||||||||||");
 
 		kala.setSugu("M");
 		System.out.println("kala Sugu: "+kala.sugu);
@@ -44,7 +43,7 @@ public class App {
 		System.out.println("Liik: "+kala.getliik());
 		kala.uju();
 		
-		System.out.println("//////////////////////////////////////////");
+		System.out.println("||||||||||||||||||||||||||||||||||||||||||||");
 
 		lind.setSugu("M");
 		System.out.println("linnu Sugu: "+lind.sugu);
@@ -55,7 +54,7 @@ public class App {
 		System.out.println("jalaarv: "+lind.getjalaarv());
 		lind.lenda();
 
-		System.out.println("//////////////////////////////////////////");
+		System.out.println("||||||||||||||||||||||||||||||||||||||||||||");
 
 		
 		
