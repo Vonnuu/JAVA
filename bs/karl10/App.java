@@ -6,26 +6,24 @@ public class App {
 		
 		//objekt
 		haug haug = new haug();
-		imetaja koer = new imetaja("Pauka");
+		imetaja koer = new imetaja("muki");
 		Roomaja roomaja = new Roomaja(true);
-		Kala kala = new Kala("Ahven");
+		Kala kala = new Kala("sarg");
 		Lind lind = new Lind(5);
 		
 		System.out.println(haug.uju(5));
 
-		//põhiklassist
 		koer.setSugu("M");
 		System.out.println("imetaja Sugu: "+koer.sugu);
 		koer.toit();
 		koer.temp();
 
-		//alamklassist
-		koer.setNimi("Pauka");
+		koer.setNimi("muki");
 		System.out.println("Nimi: "+koer.getNimi());
 		koer.haugu();	
 		
 		System.out.println("//////////////////////////////////////////");
-
+		
 		roomaja.setSugu("M");
 		System.out.println("roomaja Sugu: "+roomaja.sugu);
 		roomaja.toit();
@@ -42,7 +40,7 @@ public class App {
 		kala.toit();
 		kala.temp();
 
-		kala.setliik("Ahven");
+		kala.setliik("sarg");
 		System.out.println("Liik: "+kala.getliik());
 		kala.uju();
 		
