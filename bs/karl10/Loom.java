@@ -5,7 +5,6 @@ public class Loom {
 	public void toit(){
 		System.out.println("soon koiki");
 	}
-	
 	public void temp(){
 		System.out.println("pysisoojane");
 	}
