@@ -1,23 +1,18 @@
 package karl10;
 
 public class Roomaja extends Loom {
-    // omadus
-	private boolean elav;
-	// kontstruktor
-	public Roomaja(boolean elav) {
+	private uss elav;
+	public Roomaja(uss elav) {
 		this.elav = elav;
 	}
-	// getter
-	public boolean getelav() {
+	public uss getelav() {
 		return elav;
 	}
-	// setter
-	public void setelav(boolean elav) {
+	public void setelav(uss elav) {
 		this.elav = elav;
 	}
-	// meetod
 	public void mismaolen(){
-		System.out.println("ma olen roomaja");
+		System.out.println("ma olen uss");
 	}
 }
 
